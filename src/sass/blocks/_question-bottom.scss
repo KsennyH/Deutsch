@@ -1,0 +1,16 @@
+.question-bottom {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    border-top: 0.0625rem solid #fff;
+    padding: 1.125rem 1.875rem;
+    &.show {
+        display: flex;
+    }
+    &__text {
+        p + p {
+            margin-top: 0.625rem;
+        }
+    }
+}

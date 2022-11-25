@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('chunk/head.html')
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top top">
+                    <div class="top__logo logo">
+                        <img class="logo__img" src="img/logo.png" alt="Логотип">
+                    </div>
+                    <div class="top__info info">
+                        <p class="info__address">Г. Кострома,  ул. Энергетиков, д. 5, 2 этаж</p>
+                        <button class="info__phone phone">Заказать звонок</button>
+                        <div class="info__social social">
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a class="social__link" href="#">
+                                        <img src="img/vk.svg" alt="Ссылка на Вконтакте">
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="#">
+                                        <img src="img/facebook.svg" alt="Ссылка на Фэйсбук">
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="#">
+                                        <img src="img/instagram.svg" alt="Ссылка на Инстаграм">
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="#">
+                                        <img src="img/twitter.svg" alt="Ссылка на Твиттер">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__nav navigation">
+                <div class="container">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#about">О нас</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#programms">Программы</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#questions">Вопросы</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                    <button class="mobile-nav-button js-mobile-btn" type="button">
+                        <span class="mobile-nav-button__icon js-mobile-burger"></span>
+                    </button>
+                </div>
+                
+            </nav>
+            <nav class="mobile-nav js-mobile-navigation">
+                <ul class="mobile-nav__list">
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="#about">О нас</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="#programm">Программы</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="#question">Вопросы</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <section class="preview">
+                <div class="container">
+                    <div class="preview__wrapper">
+                        <div class="preview__content">
+                            <h1 class="preview__title">Курсы немецкого языка для взрослых и детей</h1>
+                            <div class="preview__text">
+                                <p>
+                                    Открыт набор в группы по изучению немецкого языка на уровнях А1 - С1
+                                </p>
+                                <p>
+                                    Поможем подтянуть уровень немецкого для учёбы, работы и путешествий!
+                                </p>
+                            </div>
+                            <div class="preview__buttons-wrapper">
+                                <button class="preview__record btn">Записаться</button>
+                                <button class="preview__test btn btn--get-test">Пройти тест</button>
+                            </div>
+                        </div>
+                        <div class="preview__image img-block img-block--right">
+                            <img class="img-block__img" src="img/preview-img.jpg" alt="Превью фото">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="about" id="about">
+                <div class="container">
+                    <h2 class="visually-hidden">Школа немецкого языка "Deutsch"</h2>
+                    <div class="about__wrapper">
+                        <div class="about__text">
+                            <p>
+                                Наша школа образована в 2015 году. Основной целью наших курсов является помощь в развитии разговорных 
+                                навыков и свободного владения немецким языком. Чтобы начать пользоваться разговорным немецким, 
+                                вам потребуется всего месяц. 
+                            </p>
+                            <p>
+                                Так как на наших групповых и индивидуальных занятиях изучения языка 80 % всего времени делается упор на 
+                                разговорную практику, и только 20 % - на теоретическую часть.
+                            </p>
+                        </div>
+                        <div class="about__registration">
+                            <form action="" class="registration">
+                                <div class="registration__top-wrapper">
+                                    <h2 class="registration__title">Пробное занятие <span class="uppercase-title">БЕСПЛАТНО</span></h2>
+                                </div>
+                                <div class="registration__bottom-wrapper">
+                                    <div class="registration__labels-wrapper">
+                                        <label class="registration__label">
+                                            <input class="registration__input" type="text" placeholder="Имя">
+                                        </label>
+                                        <label class="registration__label">
+                                            <input class="registration__input" type="email" placeholder="E-mail">
+                                        </label>
+                                    </div>
+                                    <div class="registration__buttons-wrapper">
+                                        <button class="registration__record btn">Записаться</button>
+                                        <button class="registration__test btn btn--get-test">Пройти тест</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="features">
+                <div class="container">
+                    <h2 class="features__title title">Школа <span class="uppercase-title">“DEUTSCH”</span> в Костроме - это</h2>
+                    <ul class="features__list">
+                        <li class="features__item features-item">
+                            <div class="features-item__img">
+                                <img class="features-item__icon" src="img/practice.svg" alt="">
+                            </div>
+                            <p class="features-item__label">Разговорная практика</p>
+                        </li>
+                        <li class="features__item features-item">
+                            <div class="features-item__img">
+                                <img class="features-item__icon" src="img/calendar.svg" alt="">
+                            </div>
+                            <p class="features-item__label">Удобный график</p>
+                        </li>
+                        <li class="features__item features-item">
+                            <div class="features-item__img">
+                                <img class="features-item__icon" src="img/budget.svg" alt="">
+                            </div>
+                            <p class="features-item__label">Умеренные цены</p>
+                        </li>
+                        <li class="features__item features-item">
+                            <div class="features-item__img">
+                                <img class="features-item__icon" src="img/result.svg" alt="">
+                            </div>
+                            <p class="features-item__label">Быстрый результат</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="missions">
+                <div class="container">
+                    <h2 class="missions__title title-decor">Немецкий язык для любых целей</h2>
+                    <ul class="missions__list">
+                        <li class="missions__item missions-item">
+                            <h3 class="missions-item__title">Немецкий язык для начинающих</h3>
+                            <div class="missions-item__text">
+                                <p>
+                                    Наши преподаватели помогут Вам начать говорить по-немецки, научат не бояться языка и понимать немецкую речь на слух.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="missions__item missions-item">
+                            <h3 class="missions-item__title">Подготовка к экзаменам</h3>
+                            <div class="missions-item__text">
+                                <p>
+                                    Помощь в подготовке к ОГЭ, ЕГЭ, а также к международным экзаменам для получения сертификатов Test DaF, Goethe-Zertifikat, DSH.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="missions__item missions-item">
+                            <h3 class="missions-item__title">Профессиональный немецкий</h3>
+                            <div class="missions-item__text">
+                                <p>
+                                    Поможем улучшить Ваш уровень немецкого языка, что откроет для Вас новые профессиональные возможности.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="lessons">
+                <div class="container">
+                    <div class="lessons__wrapper">
+                        <div class="lessons__image img-block img-block--left">
+                            <img class="img-block__img" src="img/lessons-img1.jpg" alt="Фото">
+                        </div>
+                        <div class="lessons__content">
+                            <h2 class="lessons__title title">Индивидуальные и онлайн занятия</h2>
+                            <div class="lessons__text">
+                                <p>
+                                    В нашей школе Вы можете заниматься индивидуально с преподавателем в любое удобное для Вас время. 
+                                    Так же мы проводим онлайн-уроки. После прохождения любого выбранного курса и сдачи экзамена, Вы получаете 
+                                    сертификат.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="lessons">
+                <div class="container">
+                    <div class="lessons__wrapper lessons__wrapper--img-right">
+                        <div class="lessons__image img-block img-block--right">
+                            <img class="img-block__img" src="img/lessons-img2.jpg" alt="Фото">
+                        </div>
+                        <div class="lessons__content">
+                            <h2 class="lessons__title title">Групповые занятия любого уровня</h2>
+                            <div class="lessons__text">
+                                <p>
+                                    Занятие проходят в небольших группах 3-5 человек 2 раза в неделю. Есть дневные и вечерние группы, а также 
+                                    возможность взять дополнительные индивидуальные занятия. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="programms" id="programms">
+                <div class="container">
+                    <h2 class="programms__title title">Наши программы</h2>
+                    <ul class="programms__list">
+                        <li class="programms__item proggram-item proggram-item--black">
+                            <a class="programm-item__link" href="programm.html">Немецкий для начинающих</a>
+                        </li>
+                        <li class="programms__item proggram-item proggram-item--black">
+                            <a class="programm-item__link" href="programm.html">Разговорный немецкий</a>
+                        </li>
+                        <li class="programms__item proggram-item proggram-item--black">
+                            <a class="programm-item__link" href="programm.html">Деловой немецкий</a>
+                        </li>
+                        <li class="programms__item proggram-item proggram-item--red">
+                            <a class="programm-item__link" href="programm.html">Групповые занятия</a>
+                        </li>
+                        <li class="programms__item proggram-item proggram-item--red">
+                            <a class="programm-item__link" href="programm.html">Индивидуальные занятия</a>
+                        </li>
+                        <li class="programms__item proggram-item proggram-item--red">
+                            <a class="programm-item__link" href="programm.html">Интенсивный курс</a>
+                        </li>
+                        <li class="programms__item proggram-item proggram-item--yellow">
+                            <a class="programm-item__link" href="programm.html">Подготовка к ОГЭ</a>
+                        </li>
+                        <li class="programms__item proggram-item proggram-item--yellow">
+                            <a class="programm-item__link" href="programm.html">Подготовка к ЕГЭ</a>
+                        </li>
+                        <li class="programms__item proggram-item proggram-item--yellow">
+                            <a class="programm-item__link" href="programm.html">Международные экзамены</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="about">
+                <div class="container">
+                    <h2 class="visually-hidden">Школа немецкого языка "Deutsch"</h2>
+                    <div class="about__wrapper">
+                        <div class="about__text">
+                            <p>
+                                Для воплощения наших амбициозных задач и достижения целей мы пригласили лучших преподавателей, имеющих 
+                                высшее профильное образование, опыт работы более 7 лет и владеющих современной методикой преподавания 
+                                иностранных языков. 
+                            </p>
+                            <p>
+                                Для того, чтобы обучение проходило максимально эффективно, мы разработали специальную методику, 
+                                основой которой являются классические методы преподавания традиционной школы и инновационные подходы 
+                                коммуникативного обучения.
+                            </p>
+                        </div>
+                        <div class="about__registration">
+                            <form action="" class="registration">
+                                <div class="registration__top-wrapper">
+                                    <h2 class="registration__title">Пробное занятие <span class="uppercase-title">БЕСПЛАТНО</span></h2>
+                                </div>
+                                <div class="registration__bottom-wrapper">
+                                    <div class="registration__labels-wrapper">
+                                        <label class="registration__label">
+                                            <input class="registration__input" type="text" placeholder="Имя">
+                                        </label>
+                                        <label class="registration__label">
+                                            <input class="registration__input" type="email" placeholder="E-mail">
+                                        </label>
+                                    </div>
+                                    <div class="registration__buttons-wrapper">
+                                        <button class="registration__record btn">Записаться</button>
+                                        <button class="registration__test btn btn--get-test">Пройти тест</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="questions" id="questions">
+                <div class="container">
+                    <h2 class="questions__title title">Ответы на Ваши вопросы</h2>
+                    <ul class="questions__list">
+                        <li class="questions__item question-item">
+                            <button class="question-item__top-wrapper question-top" type="button" data-name="spoiler">
+                                <p class="question-top__text">Как долго будут длиться курсы?</p>
+                                <svg class="question-top__icon" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1089 1L8.05443 8.34837L1 1" stroke="white" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <div class="question-item__bottom-wrapper question-bottom">
+                                <div class="question-item__text">
+                                    <p>
+                                        Каждый уровень групповых курсов длится 16 недель. 
+                                    </p>
+                                    <p>
+                                        Длительность индивидуальных курсов и курсов для 
+                                        подготовки к экзаменам Вы определяете индивидуально с преподавателем.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="questions__item question-item">
+                            <button class="question-item__top-wrapper question-top" type="button" data-name="spoiler">
+                                <p class="question-top__text">Сколько стоит курс?</p>
+                                <svg class="question-top__icon" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1089 1L8.05443 8.34837L1 1" stroke="white" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <div class="question-item__bottom-wrapper question-bottom">
+                                <div class="question-item__text">
+                                    <p>
+                                        Стоимость зависит от выбранного курса. 
+                                    </p>
+                                    <p>
+                                        Полный прайс-лист Вы можете получить по электронной почте или на наших страничках в социальных сетях. 
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="questions__item question-item">
+                            <button class="question-item__top-wrapper question-top" type="button" data-name="spoiler">
+                                <p class="question-top__text">Могу ли я оплатить курс частями?</p>
+                                <svg class="question-top__icon" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1089 1L8.05443 8.34837L1 1" stroke="white" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <div class="question-item__bottom-wrapper question-bottom">
+                                <div class="question-item__text">
+                                    <p>
+                                        Да, в нашей школе Вы можете оформить рассрочку и оплатить курс частями. 
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="questions__item question-item">
+                            <button class="question-item__top-wrapper question-top" type="button" data-name="spoiler">
+                                <p class="question-top__text">Когда начинаются занятия?</p>
+                                <svg class="question-top__icon" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1089 1L8.05443 8.34837L1 1" stroke="white" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <div class="question-item__bottom-wrapper question-bottom">
+                                <div class="question-item__text">
+                                    <p>
+                                        Групповые занятия начинаются по мере набора группы. Набор в группы производится каждые две недели.
+                                    </p>
+                                    <p>
+                                        Время индивидуальных занятий Вы с преподавателем определяете самостоятельно.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="questions__item question-item">
+                            <button class="question-item__top-wrapper question-top" type="button" data-name="spoiler">
+                                <p class="question-top__text">Как записаться на занятия?</p>
+                                <svg class="question-top__icon" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1089 1L8.05443 8.34837L1 1" stroke="white" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <div class="question-item__bottom-wrapper question-bottom">
+                                <div class="question-item__text">
+                                    <p>
+                                        Чтобы записаться на занятия, Вам нужно заполнить простую форму регистрации на нашем сайте.
+                                        Вам на почту будет отправлен тест на определение уровня языка, после прохождения которого
+                                        Вас пригласят на бесплатное тестовое занятие, чтобы подобрать для Вас подходящую группу.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="levels">
+                <div class="container">
+                    <h2 class="levels__title title">Начните учить немецкий в школе <span class="uppercase-title">“DEUTSCH”</span>!</h2>
+                    <ul class="levels__list">
+                        <li class="levels__item item-level">
+                            <div class="item-level__label">
+                                <h3 class="item-level__title">Уровень А1</h3>
+                                <span class="item-level__price">12 000 руб.</span>
+                            </div>
+                            <div class="item-level__text">
+                                <p>
+                                    Курс для тех, кто никогда не сталкивался с немецким языком и хочет изучить его с нуля
+                                </p>
+                            </div>
+                            <button class="item-level__record btn">Записаться</button>
+                        </li>
+                        <li class="levels__item item-level">
+                            <div class="item-level__label">
+                                <h3 class="item-level__title">Уровень А2</h3>
+                                <span class="item-level__price">15 000 руб.</span>
+                            </div>
+                            <div class="item-level__text">
+                                <p>
+                                    Курс для продолжающих после получения уровня А1, а также для тех, кто пытался выучить немецкий в школе или  самостоятельно
+                                </p>
+                            </div>
+                            <button class="item-level__record btn">Записаться</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="reviews" id="reviews">
+                <div class="container">
+                    <h2 class="reviews__title title">Отзывы наших студентов</h2>
+                    <ul class="reviews__list">
+                        <li class="reviews__item item-review">
+                            <div class="item-review__rating">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                            </div>
+                            <div class="item-review__comment">
+                                <p>
+                                    Добрый день! Хотел бы поблагодарить Deutsch и в частности моего преподавателя Артёма Воскресенского за то, 
+                                    что он в самые короткие сроки подготовил меня к сдаче экзамена TestDAf на хорошие оценки. 
+                                </p>
+                            </div>
+                            <div class="item-review__author">
+                                <div class="item-review__author-wrapper">
+                                    <div class="item-review__img">
+                                        <img class="author-review__avatar" src="img/cat.png" alt="">
+                                    </div>
+                                    <span class="author-review__name">Егор Смирнов</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="reviews__item item-review">
+                            <div class="item-review__rating">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                            </div>
+                            <div class="item-review__comment">
+                                <p>
+                                    Очень довольна как методикой подачи материала, так и подходом преподавателя к занятиям. 
+                                </p>
+                            </div>
+                            <div class="item-review__author">
+                                <div class="item-review__author-wrapper">
+                                    <div class="item-review__img">
+                                        <img class="author-review__avatar" src="img/cat.png" alt="">
+                                    </div>
+                                    <span class="author-review__name">Алина Белова</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="reviews__item item-review">
+                            <div class="item-review__rating">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                            </div>
+                            <div class="item-review__comment">
+                                <p>
+                                    Занятия проходили в очень серьезной и мотивирующей обстановке, но в то же время не были напряженными и изматывающими. Мне понравилось! 
+                                </p>
+                            </div>
+                            <div class="item-review__author">
+                                <div class="item-review__author-wrapper">
+                                    <div class="item-review__img">
+                                        <img class="author-review__avatar" src="img/cat.png" alt="">
+                                    </div>
+                                    <span class="author-review__name">Андрей Иванов</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="reviews__item item-review">
+                            <div class="item-review__rating">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                            </div>
+                            <div class="item-review__comment">
+                                <p>
+                                    Занятия проходили в очень серьезной и мотивирующей обстановке, но в то же время не были напряженными и изматывающими. Мне понравилось! 
+                                </p>
+                            </div>
+                            <div class="item-review__author">
+                                <div class="item-review__author-wrapper">
+                                    <div class="item-review__img">
+                                        <img class="author-review__avatar" src="img/cat.png" alt="">
+                                    </div>
+                                    <span class="author-review__name">Виктория Андреева</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="reviews__item item-review">
+                            <div class="item-review__rating">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                            </div>
+                            <div class="item-review__comment">
+                                <p>
+                                    Добрый день! Хотел бы поблагодарить Deutsch и в частности моего преподавателя Артёма Воскресенского за то, что он в самые короткие сроки подготовил меня к сдаче экзамена TestDAf на хорошие оценки.  
+                                </p>
+                            </div>
+                            <div class="item-review__author">
+                                <div class="item-review__author-wrapper">
+                                    <div class="item-review__img">
+                                        <img class="author-review__avatar" src="img/cat.png" alt="">
+                                    </div>
+                                    <span class="author-review__name">Илья Викторов</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="reviews__item item-review">
+                            <div class="item-review__rating">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                                <img class="item-review__star" src="img/star.svg" alt="">
+                            </div>
+                            <div class="item-review__comment">
+                                <p>
+                                    Очень доволен как методикой подачи материала, так и подходом преподавателя к занятиям.
+                                </p>
+                            </div>
+                            <div class="item-review__author">
+                                <div class="item-review__author-wrapper">
+                                    <div class="item-review__img">
+                                        <img class="author-review__avatar" src="img/cat.png" alt="">
+                                    </div>
+                                    <span class="author-review__name">Павел Астахов</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="contacts" id="contacts">
+                <div class="container">
+                    <h2 class="contacts__title title">Контакты</h2>
+                    <div class="contacts__info">
+                        <span class="contacts__addres">Г. Кострома,  ул. Энергетиков, д. 5, 2 этаж</span>
+                        <a class="contacts__tel-link" href="tel:+79205641112">+7 920 564 11 12</a>
+                        <button class="contacts__phone phone">Заказать звонок</button>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="contacts__map">
+                        <iframe class="contacts__map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2129.54389190641!2d40.98088811598049!3d57.74118828113162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ad51d7a0daa9b9%3A0x99a169ac3dfe0b61!2z0YPQuy4g0K3QvdC10YDQs9C10YLQuNC60L7QsiwgNSwg0JrQvtGB0YLRgNC-0LzQsCwg0JrQvtGB0YLRgNC-0LzRgdC60LDRjyDQvtCx0LsuLCAxNTYwMTQ!5e0!3m2!1sru!2sru!4v1664440360687!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top top">
+                    <div class="top__logo logo">
+                        <img class="logo__img" src="img/logo.png" alt="Логотип">
+                    </div>
+                    <div class="top__info info">
+                        <p class="info__address">Г. Кострома,  ул. Энергетиков, д. 5, 2 этаж</p>
+                        <button class="info__phone phone">Заказать звонок</button>
+                        <div class="info__social social">
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a class="social__link" href="#">
+                                        <img src="img/vk.svg" alt="Ссылка на Вконтакте">
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="#">
+                                        <img src="img/facebook.svg" alt="Ссылка на Фэйсбук">
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="#">
+                                        <img src="img/instagram.svg" alt="Ссылка на Инстаграм">
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="#">
+                                        <img src="img/twitter.svg" alt="Ссылка на Твиттер">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.mobile-nav {
+    background-color: $red;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1.125rem 0;
+    &.active {
+        display: flex;
+    }
+    &__item {
+        &:hover {
+            background-color: #000;
+        }
+    }
+    &__link {
+        width: 100%;
+        padding: 0.9375rem;
+    }
+}

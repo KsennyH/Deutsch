@@ -1,0 +1,16 @@
+.levels {
+    padding: 8.75rem 0;
+    background-color: $yellow;
+    color: #fff;
+    text-align: center;
+    &__title {
+        margin-bottom: 6.25rem;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(46%, 1fr));
+        gap: 2.5rem;
+        width: 73%;
+        margin: 0 auto;
+    }
+}

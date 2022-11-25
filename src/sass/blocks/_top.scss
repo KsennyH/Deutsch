@@ -1,0 +1,12 @@
+.top {
+    color: $default;
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    &__info {
+        flex: 0 1 40%;
+    }
+    &__logo {
+        flex: 0 1 35%;
+    }
+}

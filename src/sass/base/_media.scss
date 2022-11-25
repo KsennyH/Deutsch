@@ -1,0 +1,361 @@
+@media (max-width: 1230px) { 
+    
+}
+@media (max-width: 1199.98px) { 
+    .preview__title,
+    .missions__title {
+        font-size: 2.25rem;
+    }
+    .container-fluid {
+        padding: 0 0.9375rem;
+    }
+}
+@media (max-width: 1030px) {
+    
+}
+@media (max-width: 991.98px) { 
+    .preview {
+        padding: 5rem 0 115px 0;
+    }
+    .preview__text,
+    .btn {
+        font-size: 1rem;
+    }
+    .preview__text {
+        margin-bottom: 0.9375rem;
+        p + p {
+            margin-top: 0.9375rem;
+        }
+    }
+    .registration__buttons-wrapper {
+        flex-direction: column;
+    }
+    .registration__record {
+        margin: 0 0 0.625rem 0;
+    }
+    .features {
+        padding: 4.375rem 0;
+    }
+    .title {
+        font-size: 1.875rem;
+    }
+    .lessons__image {
+        flex: 0 1 42%;
+    }
+    .missions {
+        padding-bottom: 6.875rem;
+    }
+    .programms__list {
+        width: 100%;
+    }
+    .lessons {
+        padding-bottom: 6.25rem;
+    }
+    .questions {
+        padding: 5rem 0;
+    }
+    .levels__list {
+        width: 100%;
+    }
+    .levels {
+        padding: 6.25rem 0;
+    }
+    .levels__title {
+        margin-bottom: 4.375rem;
+    }
+    .reviews {
+        padding: 6.25rem 0;
+    }
+    .courses__wrapper {
+        flex-direction: column;
+    }
+    .courses__text {
+        margin: 0 0 2.5rem 0;
+    }
+    .courses__registration {
+        width: 55%;
+    }
+}
+
+@media(max-width: 850px) {
+    .about {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__text {
+            margin-bottom: 2.5rem;
+        }
+        &__registration {
+            width: 60%;
+        }
+    } 
+    .missions {
+        padding-bottom: 5rem;
+    } 
+    .questions__list {
+        width: 100%;
+    }  
+}
+
+@media (max-width: 767.98px) { 
+    .header,
+    .footer {
+        font-size: 1rem;
+    }
+    .top {
+        padding: 1.5625rem 0;
+        &__logo {
+            align-self: center;
+        }
+    }
+    .preview {
+        padding: 3.125rem 0 3.75rem 0;
+        text-align: center;
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__buttons-wrapper {
+            justify-content: center;
+        }
+        &__image {
+            display: none;
+        }
+    }
+    .about__registration {
+        width: 80%;
+    }
+    .registration__title,
+    .about__text {
+        font-size: 1rem;
+    }
+    .about__text {
+        margin-bottom: 0.9375rem;
+        p + p {
+            margin-top: 0.9375rem;
+        }
+    }
+    .features-item__label {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 1.75rem;
+    }
+    .features-item__img {
+        margin-bottom: 1.5625rem;
+    }
+    .features-item__icon {
+        max-width: 57%;
+    }
+    .missions-item__title {
+        font-size: 1.25rem;
+    }
+    .missions-item__text {
+        font-size: 1rem;
+    }
+    .missions__title {
+        margin-bottom: 3.75rem;
+    }
+    .lessons__text {
+        font-size: 1rem;
+    }  
+    .programms__list {
+        font-size: 1rem;
+    }
+    .questions {
+        padding: 3.125rem 0;
+    }
+    .levels__list {
+        gap: 0.9375rem;
+    }
+    .item-level {
+        padding: 3.1875rem 1.125rem 2.25rem;
+    }
+    .item-level__text {
+        font-size: 1rem;
+    }
+    .item-level__title {
+        font-size: 2rem;
+    }
+    .levels {
+        padding: 3.75rem 0;
+    }
+    .levels__title {
+        margin-bottom: 2.5rem;
+    }
+    .reviews {
+        padding: 4.375rem 0;
+    }
+    .item-review {
+        font-size: 0.875rem;
+        padding: 1.5625rem;
+    }
+    .contacts {
+        padding-bottom: 1.875rem;
+    }
+    .navigation__link {
+        padding: 11px 1.125rem;
+    }
+    .question-item {
+        font-size: 1rem;
+    }
+    .breadcrumbs {
+        font-size: 1rem;
+    }
+    .courses__text {
+        font-size: 1rem;
+    }
+    .courses {
+        padding-top: 1.125rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .courses__registration {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 575.98px) { 
+    .top {
+        flex-direction: column;
+        align-items: center;
+        &__logo {
+            margin-bottom: 1.125rem;
+        }
+    }
+    .info {
+        &__address,
+        &__phone {
+            display: none;
+        }
+    }
+    .logo__img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .mobile-nav-button {
+        display: flex;
+    }
+    .navigation {
+        padding: 0.625rem 0;
+    }
+    .navigation__list {
+        display: none;
+    }
+    .preview__title,
+    .missions__title {
+        font-size: 1.875rem;
+    }
+    .features {
+        padding: 2.5rem 0;
+        &__title {
+            margin-bottom: 2.5rem;
+        }
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .missions__list {
+        grid-template-columns: 1fr;
+    }
+    .missions-item {
+        grid-template-rows: 1fr auto;
+        text-align: center;
+    }
+    .missions__title {
+        margin-bottom: 2.1875rem;
+    }
+    .lessons {
+        padding-bottom: 3.125rem;
+    }
+    .lessons__wrapper {
+        flex-direction: column;
+    }
+    .lessons__image {
+        margin-bottom: 3.75rem;
+    }
+    .img-block--left::before {
+        right: 4%;
+    }
+    .img-block--right::before {
+        left: 4%;
+    }
+    .programms__list {
+        grid-template-columns: repeat(auto-fit, minmax(46%, 1fr));
+        gap: 0.625rem;
+    }
+    .proggram-item {
+        font-size: 0.875rem;
+    }
+    .programms__title {
+        margin-bottom: 2.5rem;
+    }
+    .questions__item+.questions__item {
+        margin-top: 0.9375rem;
+    }
+    .questions__title {
+        margin-bottom: 1.5625rem;
+    }
+    .levels__list {
+        grid-template-columns: 1fr;
+    }
+    .reviews {
+        padding: 2.5rem 0;
+        &__list {
+            grid-template-columns: 1fr;
+            gap: 0.9375rem;
+        }
+        &__title {
+            margin-bottom: 1.875rem;
+        }
+    }
+    .contacts__info {
+        font-size: 1rem;
+        margin-bottom: 2.1875rem;
+    }
+    .container-fluid {
+        padding: 0 0.4375rem;
+    }
+    .question-bottom,
+    .question-top {
+        padding: 1.125rem 1.5625rem;
+    }
+    .courses__registration {
+        width: 100%;
+    }
+}
+
+@media (max-width: 460px) {
+    .about__registration {
+        width: 100%;
+    }
+    .registration__top-wrapper {
+        height: 4.375rem;
+    }
+    .levels {
+        padding: 2.5rem 0;
+    }
+    .levels__title {
+        margin-bottom: 1.875rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .preview {
+        padding: 1.875rem 0 3.125rem 0;
+    }
+    .preview__title,
+    .missions__title {
+        font-size: 1.5rem;
+    }
+    .registration__bottom-wrapper {
+        padding: 0.9375rem;
+    }
+    .item-level {
+        margin: 0 -0.9375rem;
+    }
+}
+
+@media (max-width: 340px) {   
+}

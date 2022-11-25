@@ -1,0 +1,11 @@
+.phone {
+    font-weight: 700;
+    text-decoration: underline;
+    color: $red;
+    font-size: inherit;
+    &:hover,
+    &:active,
+    &:focus {
+        color: $default;
+    }
+}

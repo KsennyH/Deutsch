@@ -1,0 +1,13 @@
+.reviews {
+    padding: 9.375rem 0;
+    &__title {
+        text-align: center;
+        margin-bottom: 3.125rem;
+    }
+    &__list {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(31%, 1fr));
+        gap: 1.875rem;
+    }
+}

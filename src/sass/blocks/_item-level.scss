@@ -1,0 +1,28 @@
+.item-level {
+    background-color: $default;
+    padding: 0.3125rem;
+    display: grid;
+    padding: 5.9375rem 2.1875rem 3.75rem;
+    grid-template-rows: auto 1fr auto;
+    &__title {
+        font-size: 2.375rem;
+        margin-bottom: 1.125rem;
+    }
+    &__label {
+        margin-bottom: 2.1875rem;
+    }
+    &__price {
+        font-size: 1.25rem;
+        color: #D2C8C8;
+        letter-spacing: 0.5px;
+    }
+    &__text {
+        font-size: 1.125rem;
+        color: #D2C8C8;
+        line-height: 1.5;
+        margin-bottom: 2.1875rem;
+        p + p {
+            margin-top: 0.625rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.programms {
+    padding-bottom: 8.125rem;
+    text-align: center;
+    &__title {
+        margin-bottom: 3.75rem;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+        justify-content: center;
+        gap: 25px;
+        width: 73%;
+        margin: 0 auto;
+    }
+}

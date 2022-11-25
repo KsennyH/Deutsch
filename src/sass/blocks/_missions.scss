@@ -1,0 +1,15 @@
+.missions {
+    padding-bottom: 11.25rem;
+    &__title {
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 7.5rem;
+        text-align: center;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(28%, 1fr));
+        column-gap: 4.375rem;
+        row-gap: 1.125rem;
+    }
+}

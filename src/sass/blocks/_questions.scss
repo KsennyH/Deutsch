@@ -1,0 +1,14 @@
+.questions {
+    padding: 8.125rem 0;
+    &__title {
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+    &__list {
+        width: 73%;
+        margin: 0 auto;
+    }
+    &__item + &__item {
+        margin-top: 1.875rem;
+    }
+}

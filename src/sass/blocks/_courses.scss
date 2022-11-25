@@ -1,0 +1,23 @@
+.courses {
+    padding-top: 2.5rem;
+    &__title {
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__text {
+        flex: 0 1 62%;
+        margin-right: 2.5rem;
+        font-size: 1.125rem;
+        line-height: 1.5;
+        p + p {
+            margin-top: 0.625rem;
+        }
+    }
+    &__registration {
+        flex: 0 0 42%;
+    }
+}

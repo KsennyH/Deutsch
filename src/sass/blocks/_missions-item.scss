@@ -1,0 +1,14 @@
+.missions-item {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    &__title {
+        font-size: 1.5em;
+        line-height: 1.3;
+        font-weight: 700;
+        margin-bottom: 0.9375rem;
+    }
+    &__text {
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+}

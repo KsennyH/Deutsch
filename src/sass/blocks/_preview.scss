@@ -1,0 +1,33 @@
+.preview {
+    padding: 5rem 0 13.4375rem 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__content {
+        flex: 0 1 42%;
+    }
+    &__title {
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 1.125rem;
+    }
+    &__image {
+        flex: 0 1 48%;
+    }
+    &__text {
+        font-size: 1.25rem;
+        line-height: 1.4;
+        margin-bottom: 1.875rem;
+        p + p {
+            margin-top: 1.5625rem;
+        }
+    }
+    &__buttons-wrapper {
+        display: flex;
+    }
+    &__record {
+        margin-right: 0.9375rem;
+    }
+}

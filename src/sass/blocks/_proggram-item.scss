@@ -1,0 +1,27 @@
+.proggram-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7.5rem;
+    padding: 0.3125rem 1.125rem;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid transparent;
+    position: relative;
+    &--black {
+        background-color: #000;
+    }
+    &--red {
+        background-color: $red;
+    }
+    &--yellow {
+        background-color: $yellow;
+    }
+    &:hover {
+        background-color: $yellow;
+        color: #000;
+        border-color: #000;
+    }
+}

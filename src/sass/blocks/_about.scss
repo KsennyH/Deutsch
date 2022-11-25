@@ -1,0 +1,21 @@
+.about {
+    padding: 1.875rem 0;
+    background-color: $red;
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        flex: 0 1 44%;
+        p + p {
+            margin-top: 1.5625rem;
+        }
+    }
+    &__registration {
+        flex: 0 0 42%;
+    }
+}

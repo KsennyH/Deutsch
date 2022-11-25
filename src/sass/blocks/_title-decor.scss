@@ -1,0 +1,13 @@
+.title-decor {
+    position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 70%;
+            height: 85%;
+            background-color: $yellow;
+            z-index: -1;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+}

@@ -1,0 +1,23 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $red;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.125rem;
+    min-height: 2.75rem;
+    padding: 0.3125rem 1.125rem;
+    border: 1px solid transparent;
+    &--get-test {
+        background-color: #000;
+    }
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $yellow;
+        color: #000;
+        border-color: #000;
+    }
+}
